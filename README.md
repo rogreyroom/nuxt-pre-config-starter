@@ -80,11 +80,11 @@ pnpm lint:fix
 ## 🚀 Production
 
 ```bash
-# Build for production
+# Build for production (ssr)
 pnpm build
 
-# Build for production
-pnpm build
+# Build for production (ssg)
+pnpm generate
 
 # Preview production build
 pnpm preview
